@@ -1,0 +1,406 @@
+{
+  "schema_version": "1.0",
+  "project_folder": "cleanstack-os",
+  "startup_name": "CleanStack OS",
+  "aliases": ["CleanStack", "CleanStack Mac"],
+  "domain": "",
+  "category": "workstation health, disk cleanup, developer tools, creator tools, local compute optimization",
+  "stage": "mvp",
+  "one_line_description": "A premium workstation-health system that helps overloaded developers, creators, AI builders, and teams identify, archive, and clean unneeded local files safely.",
+  "target_users": [
+    "developers",
+    "startup founders",
+    "AI builders",
+    "video editors",
+    "audio producers",
+    "designers",
+    "3D artists",
+    "studios",
+    "small technical teams"
+  ],
+  "core_problem": "Modern workstations get clogged with generated artifacts, caches, dependencies, AI outputs, duplicate media, inactive projects, and large downloads while users do not know what is safe to delete.",
+  "core_solution": "Workflow-aware cleanup intelligence that scans local clutter, classifies risk, recommends delete/archive/compress/protect actions, and eventually runs as a lightweight macOS menu bar utility.",
+  "differentiation": "Unlike generic cleaners, CleanStack OS understands dev, studio, and AI workflows and prioritizes safe archive-first decisions over blind deletion.",
+  "mvp_scope": {
+    "primary_goal": "Create a production-ready premium website and app-shell demo that clearly communicates CleanStack OS and captures early access demand.",
+    "included_features": [
+      "premium marketing website",
+      "app preview shell",
+      "scan/archive/report/settings demo pages",
+      "waitlist form",
+      "request demo form",
+      "admin leads inbox",
+      "CSV export",
+      "cleanup intelligence positioning",
+      "workflow pack narrative"
+    ],
+    "excluded_for_now": [
+      "real system-level cleaner inside web app",
+      "automatic deletion without review",
+      "real authentication unless already configured",
+      "real cloud database unless already configured",
+      "automatic deployment"
+    ],
+    "future_features": [
+      "native macOS menu bar app",
+      "folder protect list",
+      "dev cleanup rules",
+      "studio cleanup rules",
+      "AI checkpoint cleanup",
+      "scheduled scan",
+      "scheduled safe clean",
+      "notifications",
+      "team dashboard",
+      "launch at login"
+    ]
+  },
+  "website": {
+    "primary_message": "Stop guessing what to delete. CleanStack OS gives overloaded machines a safer, sharper system-health layer.",
+    "tone": "premium, precise, systems-first, calm, technical, trustworthy",
+    "routes": [
+      "/",
+      "/product",
+      "/features",
+      "/use-cases",
+      "/integrations",
+      "/pricing",
+      "/analytics",
+      "/docs",
+      "/about",
+      "/faq",
+      "/waitlist",
+      "/request-demo",
+      "/launch",
+      "/changelog",
+      "/sign-in",
+      "/privacy",
+      "/terms",
+      "/app",
+      "/app/command-center",
+      "/app/command-palette",
+      "/app/scan",
+      "/app/archive",
+      "/app/reports",
+      "/app/notifications",
+      "/app/settings",
+      "/app/team",
+      "/app/machines/builder-laptop",
+      "/app/projects/local-model-lab",
+      "/admin/leads",
+      "/admin/leads/[id]",
+      "/admin/summary"
+    ],
+    "sections": [
+      "hero",
+      "workflow-aware cleanup",
+      "archive-first recommendations",
+      "workflow packs",
+      "app demo shell",
+      "waitlist CTA",
+      "request demo CTA",
+      "admin lead dashboard"
+    ],
+    "cta": "Join the Waitlist",
+    "seo_keywords": [
+      "macOS cleaner",
+      "developer disk cleanup",
+      "node_modules cleanup",
+      "AI storage cleanup",
+      "workstation health",
+      "creator workstation cleanup",
+      "safe disk cleanup"
+    ]
+  },
+  "product": {
+    "core_flows": [
+      "scan machine",
+      "classify cleanup candidates",
+      "review safe vs risky items",
+      "archive inactive projects",
+      "quick clean safe caches",
+      "schedule scans"
+    ],
+    "demo_flows": [
+      "app overview",
+      "scan results",
+      "archive recommendations",
+      "reports",
+      "settings",
+      "team machines",
+      "admin leads"
+    ],
+    "data_model_notes": [
+      "local JSON waitlist is acceptable for MVP",
+      "future native app needs local scan candidate model",
+      "future team version may require auth/database"
+    ],
+    "auth_required": false,
+    "database_required": false,
+    "api_required": true
+  },
+  "design_system": {
+    "visual_style": "cold premium precision software, obsidian graphite ice-blue subtle mint, system control room",
+    "colors": ["black", "obsidian", "graphite", "ice blue", "subtle mint", "white"],
+    "typography": "clean modern sans-serif, tight tracking for headings, readable body copy",
+    "layout_principles": [
+      "large calm sections",
+      "sharp cards",
+      "consistent spacing",
+      "responsive mobile-first layout",
+      "clear app-shell hierarchy"
+    ],
+    "animation_style": "subtle hover, no loud gimmicks",
+    "avoid": [
+      "Noaerth-like venture glow",
+      "orange/purple heavy gradients",
+      "generic SaaS template feel",
+      "busy cluttered UI"
+    ]
+  },
+  "technical_stack": {
+    "framework": "Next.js",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS",
+    "package_manager": "pnpm",
+    "deployment": "Vercel",
+    "database": "local JSON for MVP unless Supabase already configured",
+    "auth": "none for MVP unless already configured",
+    "apis": ["/api/waitlist", "/api/admin/export-leads"]
+  },
+  "important_files": {
+    "routes": [
+      "app/page.tsx",
+      "app/product/page.tsx",
+      "app/features/page.tsx",
+      "app/use-cases/page.tsx",
+      "app/integrations/page.tsx",
+      "app/pricing/page.tsx",
+      "app/analytics/page.tsx",
+      "app/docs/page.tsx",
+      "app/about/page.tsx",
+      "app/faq/page.tsx",
+      "app/waitlist/page.tsx",
+      "app/request-demo/page.tsx",
+      "app/launch/page.tsx",
+      "app/changelog/page.tsx",
+      "app/sign-in/page.tsx",
+      "app/privacy/page.tsx",
+      "app/terms/page.tsx",
+      "app/app/page.tsx",
+      "app/app/command-center/page.tsx",
+      "app/app/command-palette/page.tsx",
+      "app/app/scan/page.tsx",
+      "app/app/archive/page.tsx",
+      "app/app/reports/page.tsx",
+      "app/app/notifications/page.tsx",
+      "app/app/settings/page.tsx",
+      "app/app/team/page.tsx",
+      "app/app/machines/builder-laptop/page.tsx",
+      "app/app/projects/local-model-lab/page.tsx",
+      "app/admin/leads/page.tsx",
+      "app/admin/leads/[id]/page.tsx",
+      "app/admin/summary/page.tsx",
+      "app/api/waitlist/route.ts",
+      "app/api/admin/export-leads/route.ts"
+    ],
+    "components": [
+      "components/mobile-nav.tsx",
+      "components/app-shell-header.tsx",
+      "components/app-sidebar.tsx",
+      "components/app-search.tsx"
+    ],
+    "lib": [
+      "lib/waitlist.ts",
+      "lib/app-nav.ts",
+      "lib/supabase.ts"
+    ],
+    "data": [
+      "data/waitlist.json"
+    ],
+    "public_assets": [
+      "public/graphics/hero-workstation.svg",
+      "public/graphics/cleanup-intelligence.svg",
+      "public/graphics/archive-intelligence.svg",
+      "public/graphics/ai-storage-ops.svg",
+      "public/graphics/product-system-map.svg",
+      "public/graphics/pricing-stack.svg",
+      "public/graphics/dashboard-orbit.svg"
+    ],
+    "config": [
+      "package.json",
+      "pnpm-lock.yaml",
+      "next.config.ts",
+      "tsconfig.json",
+      "postcss.config.mjs",
+      "eslint.config.mjs",
+      ".gitignore"
+    ]
+  },
+  "preserve": {
+    "copy": [
+      "Your machine is not slow. It is overloaded.",
+      "Precision compute health.",
+      "Workflow-aware cleanup.",
+      "Archive-first recommendations.",
+      "Safe system decisions.",
+      "Stop guessing what to delete."
+    ],
+    "features": [
+      "waitlist capture",
+      "request demo capture",
+      "admin lead inbox",
+      "CSV lead export",
+      "app shell demo routes"
+    ],
+    "components": [
+      "mobile-nav",
+      "app-shell-header",
+      "app-sidebar",
+      "app-search"
+    ],
+    "assets": [
+      "hero-workstation.svg",
+      "cleanup-intelligence.svg",
+      "archive-intelligence.svg",
+      "ai-storage-ops.svg",
+      "product-system-map.svg",
+      "pricing-stack.svg",
+      "dashboard-orbit.svg"
+    ],
+    "technical_decisions": [
+      "Next.js app router",
+      "pnpm-only workflow",
+      "local JSON waitlist storage",
+      "manual deploy process"
+    ]
+  },
+  "do_not": {
+    "delete": [
+      "data/waitlist.json",
+      "pnpm-lock.yaml",
+      "package.json",
+      ".gitignore",
+      "RECOVERY_NOTES.md",
+      "AUTOBUILDER_FOUNDATION.json",
+      ".autobuilder"
+    ],
+    "expose_publicly": [
+      "private local paths",
+      "secrets in env files",
+      "internal Autobuilder mechanics"
+    ],
+    "change_without_reason": [
+      "route structure",
+      "core product messaging",
+      "waitlist/admin APIs"
+    ],
+    "build": [
+      "npm install",
+      "automatic deploy",
+      "automatic push"
+    ],
+    "drift_toward": [
+      "Noaerth visuals",
+      "generic SaaS template",
+      "cloud backup positioning",
+      "unsafe automatic deletion claims"
+    ]
+  },
+  "autobuilder_strategy": {
+    "north_star": "Make CleanStack OS feel like the premium operating layer for safe workstation cleanup and local compute health.",
+    "quality_bar": "Build-clean, responsive, investor-ready, product-clear, not generic.",
+    "next_priorities": [
+      "stabilize build and CI signals",
+      "improve app demo realism for cleanup candidates",
+      "expand onboarding and protect-list flows",
+      "improve SEO for high-intent pages",
+      "strengthen admin lead segmentation"
+    ],
+    "safe_improvement_types": [
+      "copy clarity",
+      "responsive polish",
+      "route consistency",
+      "app shell polish",
+      "admin UX improvements",
+      "graphics optimization",
+      "documentation updates"
+    ],
+    "unsafe_improvement_types": [
+      "real destructive cleanup behavior",
+      "stack migrations",
+      "forced auth/db rewrites",
+      "automatic deployment actions"
+    ],
+    "preferred_task_size": "medium",
+    "build_frequency_guidance": "Run pnpm build after meaningful source changes.",
+    "deployment_guidance": "manual_vercel_only"
+  },
+  "cleanup_policy": {
+    "safe_to_delete": [
+      "node_modules",
+      ".next",
+      ".turbo",
+      ".vercel/cache",
+      "dist",
+      "build",
+      "coverage",
+      "playwright-report",
+      "test-results",
+      ".cache",
+      ".parcel-cache",
+      "*.log",
+      ".DS_Store",
+      "package-lock.json",
+      "yarn.lock",
+      "bun.lockb",
+      "npm-shrinkwrap.json"
+    ],
+    "must_preserve": [
+      "app",
+      "components",
+      "lib",
+      "public",
+      "data",
+      ".autobuilder",
+      "RECOVERY_NOTES.md",
+      "AUTOBUILDER_FOUNDATION.json",
+      "pnpm-lock.yaml"
+    ],
+    "large_file_review_paths": [
+      "public",
+      "data",
+      "docs",
+      ".autobuilder"
+    ],
+    "post_build_cleanup_commands": [
+      "rm -rf node_modules .next .turbo .vercel/cache dist build coverage playwright-report test-results .cache .parcel-cache",
+      "find . -name '.DS_Store' -type f -delete",
+      "find . -name '*.log' -type f -delete",
+      "rm -f package-lock.json yarn.lock bun.lockb npm-shrinkwrap.json"
+    ]
+  },
+  "last_recovery_summary": {
+    "date": "2026-05-11",
+    "restored": [
+      "homepage messaging and native layout",
+      "CleanStack identity alignment"
+    ],
+    "improved": [
+      "route and API verification",
+      "config hygiene",
+      "autobuilder foundation coverage"
+    ],
+    "fixed": [
+      "removed external iframe homepage drift",
+      "removed duplicate Next config warning source"
+    ],
+    "removed": [
+      "next.config.js",
+      "next.config.mjs"
+    ],
+    "remaining_risks": [
+      "typecheck script missing in package.json",
+      "checkout API route is placeholder only"
+    ]
+  }
+}

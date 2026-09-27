@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "project_folder": "cleanstack-os",
+  "startup_name": "CleanStack OS",
+  "last_updated": "2026-05-11T09:42:30Z",
+  "status": "ready",
+  "build_status": {
+    "pnpm_install": "pass",
+    "lint": "pass",
+    "typecheck": "missing_script",
+    "build": "pass",
+    "last_error": "pnpm typecheck: Command \"typecheck\" not found"
+  },
+  "deploy_status": {
+    "vercel_ready": true,
+    "last_deployed": "",
+    "deployment_url": "",
+    "manual_deploy_command": "cd /Users/joshuadavis/startups/cleanstack-os && pnpm install && pnpm build && vercel --prod"
+  },
+  "disk_status": {
+    "size_before": "467M",
+    "size_after": "700K",
+    "cleanup_performed": true,
+    "large_files_flagged": []
+  },
+  "recent_changes": [
+    "Replaced external iframe homepage with native CleanStack OS product homepage.",
+    "Removed duplicate Next config files and retained next.config.ts.",
+    "Updated .gitignore for cache/build/env hygiene while preserving .env.example.",
+    "Created Autobuilder foundation and guardrail files."
+  ],
+  "open_issues": [
+    "No explicit typecheck script in package.json.",
+    "Checkout API route is currently placeholder behavior."
+  ],
+  "next_actions": [
+    "Add typecheck script to package.json.",
+    "Implement richer cleanup candidate simulation in app demo routes.",
+    "Add onboarding/protect-list experience."
+  ],
+  "last_agent_notes": "Build is green with pnpm and cleanup completed; workspace reduced from 467M to 700K and is ready for manual Vercel deployment."
+}

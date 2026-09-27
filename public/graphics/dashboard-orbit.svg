@@ -1,0 +1,36 @@
+<svg width="1400" height="960" viewBox="0 0 1400 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="960" rx="36" fill="#06101C"/>
+  <circle cx="700" cy="480" r="240" fill="url(#coreGlow)" opacity="0.9"/>
+  <circle cx="700" cy="480" r="140" fill="#08121F"/>
+  <circle cx="700" cy="480" r="204" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <circle cx="700" cy="480" r="280" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <rect x="142" y="140" width="220" height="120" rx="24" fill="#111D31" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="1038" y="160" width="220" height="120" rx="24" fill="#111D31" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="154" y="680" width="220" height="120" rx="24" fill="#111D31" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="1028" y="674" width="220" height="120" rx="24" fill="#111D31" stroke="rgba(255,255,255,0.08)"/>
+
+  <rect x="594" y="424" width="212" height="110" rx="24" fill="url(#panelGlow)"/>
+  <rect x="174" y="176" width="120" height="18" rx="9" fill="rgba(255,255,255,0.08)"/>
+  <rect x="1070" y="196" width="120" height="18" rx="9" fill="rgba(255,255,255,0.08)"/>
+  <rect x="182" y="714" width="120" height="18" rx="9" fill="rgba(255,255,255,0.08)"/>
+  <rect x="1058" y="708" width="120" height="18" rx="9" fill="rgba(255,255,255,0.08)"/>
+
+  <line x1="362" y1="234" x2="560" y2="396" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <line x1="1038" y1="234" x2="840" y2="396" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <line x1="374" y1="728" x2="560" y2="566" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+  <line x1="1028" y1="730" x2="840" y2="566" stroke="rgba(255,255,255,0.12)" stroke-width="2"/>
+
+  <defs>
+    <radialGradient id="coreGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(700 480) rotate(90) scale(240)">
+      <stop stop-color="#7CE9FF"/>
+      <stop offset="0.45" stop-color="#3A7EFF"/>
+      <stop offset="1" stop-color="#8B6BFF"/>
+    </radialGradient>
+    <linearGradient id="panelGlow" x1="594" y1="424" x2="806" y2="534" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9B61"/>
+      <stop offset="0.5" stop-color="#FF7878"/>
+      <stop offset="1" stop-color="#8E6BFF"/>
+    </linearGradient>
+  </defs>
+</svg>

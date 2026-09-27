@@ -1,0 +1,41 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="36" fill="#08111D"/>
+  <circle cx="240" cy="180" r="180" fill="#4D7CFF" fill-opacity="0.18"/>
+  <circle cx="940" cy="180" r="180" fill="#FF8B5A" fill-opacity="0.16"/>
+  <circle cx="650" cy="760" r="220" fill="#6A63FF" fill-opacity="0.14"/>
+
+  <rect x="92" y="110" width="1016" height="680" rx="28" fill="#0D182A" stroke="rgba(255,255,255,0.1)"/>
+  <rect x="132" y="150" width="936" height="92" rx="22" fill="#111E33"/>
+  <rect x="132" y="274" width="448" height="220" rx="24" fill="#121F36"/>
+  <rect x="620" y="274" width="448" height="220" rx="24" fill="#121F36"/>
+  <rect x="132" y="528" width="936" height="222" rx="24" fill="#121F36"/>
+
+  <rect x="172" y="184" width="190" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <rect x="828" y="176" width="188" height="40" rx="16" fill="url(#grad1)"/>
+
+  <rect x="170" y="316" width="220" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+  <rect x="170" y="364" width="180" height="86" rx="22" fill="#F7F9FF"/>
+  <rect x="662" y="316" width="180" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+
+  <rect x="662" y="370" width="330" height="24" rx="12" fill="rgba(255,255,255,0.10)"/>
+  <rect x="662" y="410" width="284" height="24" rx="12" fill="rgba(255,255,255,0.08)"/>
+
+  <rect x="170" y="570" width="220" height="22" rx="11" fill="rgba(255,255,255,0.08)"/>
+  <rect x="170" y="612" width="860" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+  <rect x="170" y="652" width="690" height="22" rx="11" fill="rgba(255,255,255,0.05)"/>
+
+  <path d="M825 474C871 474 908 437 908 391C908 345 871 308 825 308C779 308 742 345 742 391C742 437 779 474 825 474Z" fill="url(#grad2)" fill-opacity="0.95"/>
+  <path d="M795 392L818 415L857 369" stroke="white" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <defs>
+    <linearGradient id="grad1" x1="828" y1="176" x2="1016" y2="216" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9B62"/>
+      <stop offset="0.5" stop-color="#FF7676"/>
+      <stop offset="1" stop-color="#8E6BFF"/>
+    </linearGradient>
+    <radialGradient id="grad2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(825 391) rotate(90) scale(83)">
+      <stop stop-color="#79EAFF"/>
+      <stop offset="1" stop-color="#3980FF"/>
+    </radialGradient>
+  </defs>
+</svg>

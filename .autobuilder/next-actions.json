@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "project_folder": "cleanstack-os",
+  "startup_name": "CleanStack OS",
+  "prioritized_tasks": [
+    {
+      "priority": 1,
+      "task": "stabilize build",
+      "details": "Add a package.json typecheck script and keep lint/build green on each substantial change."
+    },
+    {
+      "priority": 2,
+      "task": "improve native macOS product integration narrative",
+      "details": "Clarify website language around menu bar app direction without implying shipped native automation."
+    },
+    {
+      "priority": 3,
+      "task": "add real cleanup candidate preview logic to web demo",
+      "details": "Introduce realistic candidate cards with risk levels, archive suggestions, and projected storage impact."
+    },
+    {
+      "priority": 4,
+      "task": "improve SEO",
+      "details": "Expand per-route metadata and Open Graph fields for product, features, use-cases, and pricing pages."
+    },
+    {
+      "priority": 5,
+      "task": "add onboarding/protect-list page",
+      "details": "Create an app route for protect-list setup and link it from app settings and onboarding flows."
+    },
+    {
+      "priority": 6,
+      "task": "compress/review large assets",
+      "details": "Audit public graphics for optimization while preserving current visual quality and identity."
+    },
+    {
+      "priority": 7,
+      "task": "improve admin lead segmentation",
+      "details": "Add role/source/type filters and summary chips to admin leads and summary views."
+    },
+    {
+      "priority": 8,
+      "task": "prepare Vercel env/deploy checklist",
+      "details": "Document required env vars, deploy sequence, rollback notes, and post-deploy verification steps."
+    },
+    {
+      "priority": 9,
+      "task": "tighten route consistency audit",
+      "details": "Ensure global nav and footer only reference existing routes and eliminate stale aliases."
+    }
+  ]
+}
